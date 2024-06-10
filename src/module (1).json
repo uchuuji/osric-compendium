@@ -1,0 +1,132 @@
+{
+    "title": "OSRIC Compendium",
+    "description": "OSRIC Compendium for use with Foundry OSRIC Ruleset. Contains all the content you need to use the ruleset and play an Advanced Role Playing Game.",
+    "version": "2024.04.31",
+    "id": "osric-compendium",
+    "relationships": {
+        "systems": [{
+            "id": "ars",
+            "type": "system",
+            "compatibility": {}
+        }]
+    },
+    "authors": [{
+            "name": "First Edition Society",
+            "email": "FirstEditionSociety@protonmail.com"
+        },
+        {
+            "name": "EOTB"
+        }
+    ],
+    "packs": [{
+            "name": "actor",
+            "label": "OSRIC Actors (PC)",
+            "path": "packs/actor",
+            "type": "Actor",
+            "system": "ars",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "actor-gm",
+            "label": "OSRIC Actor (GM)",
+            "path": "packs/actor-gm",
+            "type": "Actor",
+            "system": "ars",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "items",
+            "label": "OSRIC Items (PC)",
+            "path": "packs/items",
+            "type": "Item",
+            "system": "ars",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "items-gm",
+            "label": "OSRIC Items (GM)",
+            "path": "packs/items-gm",
+            "type": "Item",
+            "system": "ars",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "journals",
+            "label": "OSRIC Journals (PC)",
+            "path": "packs/journals",
+            "type": "JournalEntry",
+            "system": "ars",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "journals-gm",
+            "label": "OSRIC Journals (GM)",
+            "path": "packs/journals-gm",
+            "type": "JournalEntry",
+            "system": "ars",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "rolltables",
+            "label": "OSRIC RollTables (PC)",
+            "path": "packs/rolltables",
+            "type": "RollTable",
+            "system": "ars",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "rolltables-gm",
+            "label": "OSRIC RollTables (GM)",
+            "path": "packs/rolltables-gm",
+            "type": "RollTable",
+            "system": "ars",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        },
+        {
+            "name": "adventures",
+            "label": "OSRIC Adventures",
+            "path": "packs/adventures",
+            "type": "Adventure",
+            "system": "ars",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        }
+    ],
+    "esmodules": [
+        "scripts/init.js"
+    ],
+    "url": "https://github.com/CelestianGC/osric-compendium",
+    "manifest": "https://github.com/CelestianGC/osric-compendium/releases/latest/download/module.json",
+    "download": "https://github.com/CelestianGC/osric-compendium/releases/latest/download/osric-compendium-release.zip",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11",
+        "maximum": "12"
+    }
+}
